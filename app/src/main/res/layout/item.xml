@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#122154"
+    android:gravity="start">
+
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/imageViewList" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxWidth="120dp"
+            android:text="настольный теннис"
+            android:id="@+id/textViewSportInfo"
+            android:layout_gravity="center_horizontal"
+            android:textSize="19dp"
+            android:textStyle="bold"
+            android:textColor="#CCDDFF"
+            android:layout_marginLeft="25dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:text="New Text"
+            android:id="@+id/textViewStream"
+            android:layout_gravity="center_horizontal"
+            android:textSize="23dp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:layout_marginLeft="15dp"
+            android:gravity="center"/>
+
+</LinearLayout>
